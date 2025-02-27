@@ -9,7 +9,7 @@ variable  my_ip {}
 variable  instance_type {}
 variable public_key_location {}
 variable image_name {}
-variable ssh_key_private {}
+
 
 resource "aws_vpc" "myapp-vpc" {
   cidr_block = var.vpc_cidr_blocks
