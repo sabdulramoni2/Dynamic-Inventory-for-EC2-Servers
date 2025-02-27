@@ -13,6 +13,7 @@ variable image_name {}
 
 resource "aws_vpc" "myapp-vpc" {
   cidr_block = var.vpc_cidr_blocks
+  enable_dns_hostnames = true
   tags = {
     Name: "${var.env_prefix}-vpc"
   }
