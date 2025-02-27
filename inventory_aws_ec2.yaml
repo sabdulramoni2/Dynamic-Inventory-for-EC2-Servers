@@ -1,5 +1,5 @@
 ---
 plugin: aws_ec2
 regions: 
-  - eus-east-2
+  - us-east-2
 
